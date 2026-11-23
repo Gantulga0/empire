@@ -1,0 +1,11 @@
+@media (hover: hover) and (pointer: fine) {
+  .layer-panel-desktop:not(:hover):not(:focus-within) .layer-panel-hint {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .layer-panel-desktop:is(:hover, :focus-within) {
+    width: 380px;
+  }
+}
